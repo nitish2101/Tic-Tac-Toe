@@ -1,0 +1,58 @@
+.tic-tac-toe-container {
+  width: 600px; /* Increased width */
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.board-table {
+  width: 550px; /* increased width */
+  height: 550px; /* increased height */
+  border-collapse: collapse;
+}
+
+.board-table td {
+  width: 183.33px; /* increased width */
+  height: 183.33px; /* increased height */
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  border: 1px solid #262626;
+}
+
+.X {
+  color: #262626;
+}
+
+.O {
+  color: #f77737;
+}
+
+.turn-text {
+  text-align: center;
+  font-size: 20px;
+  color: #262626;
+  margin-top: 20px;
+}
+
+.winner-container {
+  text-align: center;
+}
+
+.winner-text {
+  font-size: 20px;
+  color: #262626;
+  margin-bottom: 20px;
+}
+
+.reset-button {
+  background-color: #f77737;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 20px auto;
+  display: block;
+  cursor: pointer;
+}

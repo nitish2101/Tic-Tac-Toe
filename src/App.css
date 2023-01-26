@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+.board {
+  background-color: #0e1f33;
+  font-family: "Helvetica Neue", sans-serif;
+  width: 745px;
+  height: 600px;
+  display: flex;
+  margin-top: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.square {
+  background-color: #f4f7f8;
+  border: 1px solid #999;
+  color: #0e1f33;
+  float: left;
+  font-size: 72px; /* increase font size */
+  font-weight: bold;
+  line-height: 200px; /* increase height of square */
+  height: 200px; /* increase height of square */
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 200px; /* increase width of square */
+}
+
+.row {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+  height: 600px;
+  font-size: 3rem;
+  color: #f4f7f8;
+  width: auto;
+}

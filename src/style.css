@@ -1,0 +1,26 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #2b2d42;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.board > div {
+  flex: 1;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  border: 1px solid #6e5494;
+}
+
+.player-turn {
+  text-align: center;
+  color: #6e5494;
+  font-size: 20px;
+  margin-top: 10px;
+}
